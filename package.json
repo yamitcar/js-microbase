@@ -12,9 +12,9 @@
     "express": "^4.12.3"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "dotenv": "^1.2.0",
-    "mocha": "^2.5.3",
+    "mocha": "^6.0.2",
     "sinon": "^7.2.5"
   },
   "scripts": {
