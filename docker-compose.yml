@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  app:
+    container_name: ck-sum
+    hostname: ck-sum
+    build: .
+    ports:
+      - "5000:80"
+    env_file:
+      - .env
+    volumes:
+      - .:/var/app
+      - /var/app/node_modules

@@ -1,0 +1,24 @@
+{
+  "name": "ck-sum",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Add the numbers.",
+  "keywords": [],
+  "author": "Colombiana de Comercio S.A.",
+  "license": "ISC",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^1.2.0",
+    "mocha": "^2.5.3",
+    "sinon": "^7.2.5"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test"
+  }
+}
